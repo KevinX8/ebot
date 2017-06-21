@@ -1,6 +1,6 @@
 #ebot
 
-ETHAN BOT
+EthanBot
 
 This bot is a clone of the example bot in discord.py
 modified
