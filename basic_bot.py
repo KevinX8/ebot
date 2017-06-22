@@ -5,14 +5,19 @@ import random
 description = '''EthanAddict's first bot written in Python with discord.py
 
 and it is glorious'''
+version = "0.1"
 bot = commands.Bot(command_prefix='ebot!', description=description)
+versionctrl = open("version", "w")
 
 @bot.event
 async def on_ready():
     print('Logged in as')
     print(bot.user.name)
     print(bot.user.id)
+    print(version)
+    versionctrl.write(version)
     print('------')
+    versionctrl.close()
 
 @bot.command()
 async def add(left : int, right : int):
