@@ -65,4 +65,7 @@ async def _bot():
     """Is the bot cool?"""
     await bot.say('Yes, the bot is cool.')
 
+with open ("token.txt", "r") as tokenfile:
+    token=tokenfile.read()
+	
 bot.run(token)
