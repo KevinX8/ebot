@@ -12,7 +12,7 @@ python3 checkver.py 0.1 $NEWVERSION
 
 export ISNEW=$(<isnew)
 
-if [ISNEW == True]
+if [$ISNEW == True]
     then
         cp * ..
 fi
