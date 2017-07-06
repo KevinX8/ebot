@@ -19,3 +19,5 @@ fi
 
 cd ..
 rm ebot
+
+python3 basic_bot.py
