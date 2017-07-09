@@ -1,6 +1,6 @@
 export BOTVERSION=0.1
 
-sudo pip install discord.py
+sudo pip3 install discord.py
 
 git clone https://github.com/Jklars/ebot.git --branch update --single-branch ebot
 
@@ -18,6 +18,6 @@ if [$ISNEW == True]
 fi
 
 cd ..
-rm ebot
+rm -rf ebot
 
 python3 basic_bot.py
