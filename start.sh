@@ -2,7 +2,7 @@ export BOTVERSION=0.1
 
 sudo pip install discord.py
 
-git clone https://github.com/Jklars/ebot.git
+git clone https://github.com/Jklars/ebot.git --branch update --single-branch ebot
 
 cd ebot
 
